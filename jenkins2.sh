@@ -1,7 +1,7 @@
 #!/bin/bash
 #Author: Hadassah
-#Description: Install Jenkins
 #Date: 3/10/22
+#Description: Jenkins Installation
 # Make sure the script is being executed with superuser privileges.
 if [[ "${UID}" -ne 0 ]]
 then
@@ -75,4 +75,8 @@ sudo firewall-cmd --reload
 sudo yum install net-tools -y
 ifconfig | grep 192.
 echo " Your Jenkins Server is Install and ready to be used and your IP is above... Thank you..."
+
+
+
+
 
